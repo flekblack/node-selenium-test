@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="062f433f-27c2-4580-aa50-cb80530f5018" name="Default Changelist" comment="" />
+    <list default="true" id="062f433f-27c2-4580-aa50-cb80530f5018" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_search_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/google_search_test.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W4uJHOf3xU01qhcsoP9fFihsOy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -40,29 +50,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.google_test.js">
+  <component name="RunManager" selected="Node.js.open.js">
     <configuration name="google_search_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/google_search_test.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="google_test.js" type="mocha-javascript-test-runner">
+    <configuration name="open.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/open.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="open.js" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
       <working-directory>$PROJECT_DIR$</working-directory>
       <pass-parent-env>true</pass-parent-env>
       <ui>bdd</ui>
-      <extra-mocha-options>-t 10000</extra-mocha-options>
+      <extra-mocha-options>-t 1000</extra-mocha-options>
       <test-kind>TEST_FILE</test-kind>
-      <test-file>$PROJECT_DIR$/google_search_test.js</test-file>
+      <test-file>$PROJECT_DIR$/open.js</test-file>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Mocha.google_test.js" />
+      <item itemvalue="Mocha.open.js" />
       <item itemvalue="Node.js.bin/www" />
       <item itemvalue="Node.js.google_search_test.js" />
+      <item itemvalue="Node.js.open.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.open.js" />
         <item itemvalue="Node.js.google_search_test.js" />
       </list>
     </recent_temporary>
@@ -81,11 +96,22 @@
       <workItem from="1579371845055" duration="554000" />
       <workItem from="1579621490724" duration="530000" />
       <workItem from="1580999172197" duration="586000" />
-      <workItem from="1581439050577" duration="6724000" />
+      <workItem from="1581439050577" duration="9726000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
