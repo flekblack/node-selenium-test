@@ -1,0 +1,9 @@
+{
+  "name": "node-selenium-test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "selenium-webdriver": "~4.0.0-alpha",
+    "mocha": "~7.0.0"
+  }
+}
