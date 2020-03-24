@@ -39,7 +39,9 @@ const assert = require('assert');
 const {Browser, By, Key, until} = require('selenium-webdriver');
 const {ignore, suite} = require('selenium-webdriver/testing');
 
-suite(function(env) {
+
+suite(function(env)
+{
   describe('Google Search', function() {
     let driver;
 

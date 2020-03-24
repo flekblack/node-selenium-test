@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="062f433f-27c2-4580-aa50-cb80530f5018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/litecart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/google_search_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/google_search_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/dist/pako.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/dist/pako.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/dist/pako_deflate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/dist/pako_deflate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/dist/pako_inflate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/dist/pako_inflate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pako/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pako/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/selenium-webdriver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/selenium-webdriver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +57,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.litecart.js">
+  <component name="RunManager" selected="Node.js.browser_lika.js">
+    <configuration name="browser_lika.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/browser_lika.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="browsers.js" type="NodeJSConfigurationType" path-to-js-file="browsers.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="google_search_test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/google_search_test.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="http.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/node_modules/selenium-webdriver/lib/http.js" working-dir="$PROJECT_DIR$/node_modules/selenium-webdriver/lib">
       <method v="2" />
     </configuration>
     <configuration name="litecart.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/litecart.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="open.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/open.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="browsers.js" type="mocha-javascript-test-runner">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>-t 1000</extra-mocha-options>
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/browsers.js</test-file>
       <method v="2" />
     </configuration>
     <configuration name="litecart.js" type="mocha-javascript-test-runner" nameIsGenerated="true">
@@ -84,18 +113,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Mocha.browsers.js" />
       <item itemvalue="Mocha.open.js" />
       <item itemvalue="Mocha.litecart.js" />
+      <item itemvalue="Node.js.browser_lika.js" />
       <item itemvalue="Node.js.bin/www" />
+      <item itemvalue="Node.js.browsers.js" />
       <item itemvalue="Node.js.google_search_test.js" />
       <item itemvalue="Node.js.open.js" />
       <item itemvalue="Node.js.litecart.js" />
+      <item itemvalue="Node.js.http.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.litecart.js" />
-        <item itemvalue="Node.js.open.js" />
+        <item itemvalue="Node.js.http.js" />
         <item itemvalue="Node.js.google_search_test.js" />
+        <item itemvalue="Node.js.open.js" />
+        <item itemvalue="Node.js.litecart.js" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +149,13 @@
       <workItem from="1580999172197" duration="586000" />
       <workItem from="1581439050577" duration="10010000" />
       <workItem from="1581886326309" duration="280000" />
-      <workItem from="1582414454703" duration="2294000" />
+      <workItem from="1582414454703" duration="11589000" />
+      <workItem from="1582631648179" duration="1036000" />
+      <workItem from="1583021701649" duration="366000" />
+      <workItem from="1583134330855" duration="693000" />
+      <workItem from="1583787416857" duration="928000" />
+      <workItem from="1584001205650" duration="294000" />
+      <workItem from="1585065577451" duration="3059000" />
     </task>
     <task id="LOCAL-00001" summary="open">
       <created>1581886215305</created>
@@ -124,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581886215305</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login admin">
+      <created>1582416995060</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582416995060</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="open" />
-    <option name="LAST_COMMIT_MESSAGE" value="open" />
+    <MESSAGE value="login admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="login admin" />
   </component>
 </project>
